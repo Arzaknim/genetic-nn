@@ -13,6 +13,7 @@ class Topology:
             self.l2_output = params[3]
             self.l1_activation = params[4]
             self.l2_activation = params[5]
+
         else:
             self.lr = random_float(0, 0.1)
             self.optim = random_int(0, 9)
